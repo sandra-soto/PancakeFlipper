@@ -29,12 +29,12 @@ public class CharacterController2D : MonoBehaviour {
     private Vector3 m_Velocity = Vector3.zero;
 
     [HideInInspector] public Rigidbody2D m_RigidBody2D;
-    //private Animator animator;
+    //private Animator animator; //If using animations
 
     void Awake()
     {
         m_RigidBody2D = GetComponent<Rigidbody2D>();
-        //animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>(); //get animator component
     }
 
     void FixedUpdate()
@@ -46,10 +46,7 @@ public class CharacterController2D : MonoBehaviour {
 
     private void Update()
     {
-        if (m_Grounded)
-        {
-            //animator.SetBool("jumping", false);
-        }
+      
     }
 
     //Handles the player movement and their jumping, called in PlayerMovement.cs
@@ -68,19 +65,6 @@ public class CharacterController2D : MonoBehaviour {
             else if (move < 0 && m_FacingRight)
                 Flip();
             
-            if (move != 0)
-            {
-                //animator.SetBool("running", true);
-            }
-            else
-            {
-                //animator.SetBool("running", false);
-            }
-
-            if (m_RigidBody2D.velocity.y != 0)
-            {
-                //animator.SetBool("jumping", true);
-            }
         }
 
         JumpGravity(jump);
