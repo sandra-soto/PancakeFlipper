@@ -1,17 +1,18 @@
 fileFormatVersion: 2
-guid: 1b78d13801c17b24fa4b58be9feae382
+guid: 4b1624133599412409797076eac85dc6
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: SNAIL_0
-    21300002: SNAIL_1
-    21300004: SNAIL_2
-    21300006: SNAIL_3
-    21300008: SnailPink_0
-    21300010: SnailPink_1
-    21300012: SnailPink_2
-    21300014: SnailPink_3
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Bars_0
+  - first:
+      213: 21300002
+    second: Bars_1
+  - first:
+      213: 21300004
+    second: Bars_2
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -31,6 +32,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -40,8 +42,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -62,11 +64,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -77,7 +83,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -88,7 +95,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -99,85 +107,69 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SnailPink_0
+      name: Bars_0
       rect:
         serializedVersion: 2
         x: 2
-        y: 0
-        width: 30
-        height: 28
+        y: 70
+        width: 150
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 579c48cebffc41a4a829817ebd4ee7f9
+      spriteID: 14b27c14942dac54899ac4fb121bef5f
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SnailPink_1
+      name: Bars_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 28
+        x: 2
+        y: 40
+        width: 150
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e866ffa95f1e89347bc94cc30c029784
+      spriteID: 1ce602e974d8ab1428244a82599411fe
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SnailPink_2
+      name: Bars_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 29
-        height: 28
+        x: 2
+        y: 8
+        width: 150
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e467263d3af5e6d46a847f69414424fe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SnailPink_3
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 0
-        width: 29
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 210224a122843e54a86a500a8ec6b316
+      spriteID: 1650575b9a67dad4ca4bfbb3d090c248
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -185,11 +177,13 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 217ec1f4eebcc644c8708fcc5d6438fc
+    spriteID: 28225ebee60f4ab4ea5e16b88af40181
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

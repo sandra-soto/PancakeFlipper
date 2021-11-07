@@ -1,18 +1,33 @@
 fileFormatVersion: 2
-guid: 9c0f10ce138fc4d47ba3eb715fbc2d6d
+guid: 2fb7759a81e9b84498cd9b6355fc4c47
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: buttonsSheet_0
-    21300002: buttonsSheet_1
-    21300004: buttonsSheet_2
-    21300006: buttonsSheet_3
-    21300008: buttonsSheet_4
-    21300010: buttonsSheet_5
-    21300012: buttonsSheet_6
-    21300014: buttonsSheet_7
-    21300016: buttonsSheet_8
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: YELLOWSHELL_0
+  - first:
+      213: 21300002
+    second: YELLOWSHELL_1
+  - first:
+      213: 21300004
+    second: YELLOWSHELL_2
+  - first:
+      213: 21300006
+    second: YELLOWSHELL_3
+  - first:
+      213: 21300008
+    second: SnailYellow_0
+  - first:
+      213: 21300010
+    second: SnailYellow_1
+  - first:
+      213: 21300012
+    second: SnailYellow_2
+  - first:
+      213: 21300014
+    second: SnailYellow_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -32,6 +47,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -41,8 +57,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -54,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,11 +79,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -78,7 +98,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -89,7 +110,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -100,137 +122,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: buttonsSheet_0
+      name: SnailYellow_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 354
-        width: 186
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d267bf3c262e0548ac27471b8b1f32e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: buttonsSheet_1
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 290
-        width: 186
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10748e9788672b54faecf02ce79565c1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: buttonsSheet_2
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 226
-        width: 186
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3578aa7fa0dad904ea3865e69f52dcd3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: buttonsSheet_3
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 162
-        width: 186
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91629a7255774f94c8d550808f2fe0fb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: buttonsSheet_4
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 98
-        width: 186
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c825bee670224d4fa3340bfcc0cd5ee
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: buttonsSheet_5
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 34
-        width: 186
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d51a153673b164c49879341c56b280a9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: buttonsSheet_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
+        x: 2
+        y: 0
         width: 30
-        height: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,19 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eeaa36273fda7d4f83af1bc51f78e36
+      spriteID: 52c0086b5bf68d14aabc56e13e1cabac
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttonsSheet_7
+      name: SnailYellow_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
-        width: 30
-        height: 30
+        x: 32
+        y: 0
+        width: 32
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,19 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4438da0f6fc9f7498113d49d7af58f1
+      spriteID: 89a4452dff0f64a4496e36f279c77e8c
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttonsSheet_8
+      name: SnailYellow_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
-        width: 30
-        height: 30
+        x: 64
+        y: 0
+        width: 29
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,7 +183,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfebed212be51c0488cfc76634eafc81
+      spriteID: b181762116130c942945a9e38e073174
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailYellow_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1e5df6b4f201f48b024e0d052c635e
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -286,11 +213,13 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2b7a08037ef770745804eb1126c489ab
+    spriteID: c8120cbed07a2cd459d095c96d1c095e
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

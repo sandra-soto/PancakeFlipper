@@ -1,17 +1,33 @@
 fileFormatVersion: 2
-guid: 16fc95d168ff68349b1a3642b98e122a
+guid: c5a13292eace05544b3b2d3bea3064ad
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: REDSHELL_0
-    21300002: REDSHELL_1
-    21300004: REDSHELL_2
-    21300006: REDSHELL_3
-    21300008: SnailRed_0
-    21300010: SnailRed_1
-    21300012: SnailRed_2
-    21300014: SnailRed_3
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: GREENSNAIL_0
+  - first:
+      213: 21300002
+    second: GREENSNAIL_1
+  - first:
+      213: 21300004
+    second: GREENSNAIL_2
+  - first:
+      213: 21300006
+    second: GREENSNAIL_3
+  - first:
+      213: 21300008
+    second: SnailBlue_0
+  - first:
+      213: 21300010
+    second: SnailBlue_1
+  - first:
+      213: 21300012
+    second: SnailBlue_2
+  - first:
+      213: 21300014
+    second: SnailBlue_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -31,6 +47,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -40,8 +57,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -62,11 +79,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -77,7 +98,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -88,7 +110,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -99,11 +122,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SnailRed_0
+      name: SnailBlue_0
       rect:
         serializedVersion: 2
         x: 2
@@ -117,13 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c95e7ee85abf7184ba7f38d9ecf2c633
+      spriteID: 89681576bcd52aa4cb65a7319b319019
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SnailRed_1
+      name: SnailBlue_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,13 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f440e70abddf67345ae9bf444acf3972
+      spriteID: e6973d46f95a1d849a8e7748858aa5d6
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SnailRed_2
+      name: SnailBlue_2
       rect:
         serializedVersion: 2
         x: 64
@@ -157,13 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9434928b74811c6488fb9129d5b7c48f
+      spriteID: 8d9cfc18384664e4baeaf3a23d5927b8
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SnailRed_3
+      name: SnailBlue_3
       rect:
         serializedVersion: 2
         x: 97
@@ -177,7 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa76a2275a630d54ea8dee1a2b949755
+      spriteID: 4352f1f5756190b449c432b72ccb3194
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -185,11 +213,13 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5a454ab4b3ba3c942accf0a2ce2dac5b
+    spriteID: 1484e16ead001c545bdee4c67ca10f33
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

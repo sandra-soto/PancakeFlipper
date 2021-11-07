@@ -1,21 +1,45 @@
 fileFormatVersion: 2
-guid: 8c26d68fcf14ada4799660fd130cc32e
+guid: 3642f785d77c9984dbfa99423b3fd0a4
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: groundWinter_0
-    21300002: groundWinter_1
-    21300004: groundWinter_2
-    21300006: groundWinter_3
-    21300008: groundWinter_4
-    21300010: groundWinter_5
-    21300012: groundWinter_6
-    21300014: groundWinter_7
-    21300016: groundWinter_8
-    21300018: groundWinter_9
-    21300020: groundWinter_10
-    21300022: groundWinter_11
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ground_0
+  - first:
+      213: 21300002
+    second: ground_1
+  - first:
+      213: 21300004
+    second: ground_2
+  - first:
+      213: 21300006
+    second: ground_3
+  - first:
+      213: 21300008
+    second: ground_4
+  - first:
+      213: 21300010
+    second: ground_5
+  - first:
+      213: 21300012
+    second: ground_6
+  - first:
+      213: 21300014
+    second: ground_7
+  - first:
+      213: 21300016
+    second: ground_8
+  - first:
+      213: 21300018
+    second: ground_9
+  - first:
+      213: 21300020
+    second: ground_10
+  - first:
+      213: 21300022
+    second: ground_11
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -35,6 +59,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -44,8 +69,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -66,11 +91,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -81,7 +110,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -92,7 +122,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -103,11 +134,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: groundWinter_0
+      name: ground_0
       rect:
         serializedVersion: 2
         x: 0
@@ -121,13 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4596040b1a3ccf84cae24f66ec424949
+      spriteID: 34c01b513b640c94295346593eb628db
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_1
+      name: ground_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,13 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a9269b808450c741a8d66efb8a682ae
+      spriteID: 099a338e97035dc41ba9ee9c2d363011
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_2
+      name: ground_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,13 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1465fe562a8f4cc4fa7522ca5ea54d92
+      spriteID: 83e167a4051541940af1629d44cdf7d6
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_3
+      name: ground_3
       rect:
         serializedVersion: 2
         x: 96
@@ -181,13 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b91b705838a85b148963783dca3b5a14
+      spriteID: 331c18801421007428623da8cfed9fd3
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_4
+      name: ground_4
       rect:
         serializedVersion: 2
         x: 0
@@ -201,13 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4cf1db77a0c4d74ba2da88c8f667d1b
+      spriteID: cf46361c3badc934c8296ffca05f42ad
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_5
+      name: ground_5
       rect:
         serializedVersion: 2
         x: 32
@@ -221,13 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15fff7fde14f634cb7a2eea05f6ae52
+      spriteID: d5f693e9cd81ff94390fbdba241cdc6b
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_6
+      name: ground_6
       rect:
         serializedVersion: 2
         x: 64
@@ -241,13 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b77c6fee189e0ec43a923aacc834a317
+      spriteID: 97f1cc5a5d66e8949acc1e14c4ed7a12
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_7
+      name: ground_7
       rect:
         serializedVersion: 2
         x: 96
@@ -261,13 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41a794219caeec345974355731e557ad
+      spriteID: 404054cf93671a64c866202da949e333
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_8
+      name: ground_8
       rect:
         serializedVersion: 2
         x: 0
@@ -281,13 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a06eb080fe20c8409c0807a22be65ef
+      spriteID: 58221ef86e888ec4f8c9244c94983cd2
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_9
+      name: ground_9
       rect:
         serializedVersion: 2
         x: 32
@@ -301,13 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ed26c5930725b94caff8a65e38a2e1f
+      spriteID: 708f07d8cfaac544ba77d58decfa6aa7
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_10
+      name: ground_10
       rect:
         serializedVersion: 2
         x: 64
@@ -321,13 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b27e76d673712004fae0ba30954c6028
+      spriteID: b3da6504de6e8c744b812b32384ed8e8
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: groundWinter_11
+      name: ground_11
       rect:
         serializedVersion: 2
         x: 96
@@ -341,7 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a797eaa5b74ef2a43baff9e0b01360a2
+      spriteID: 7080b2ffc46c39f42a315bab0f6ceabe
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -349,11 +393,13 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 92fda67d0acdfc54dbb99efa6d35fb9a
+    spriteID: e5deb6c38db00b84c944d9b18da573d8
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
